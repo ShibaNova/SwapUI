@@ -49,7 +49,17 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://swap.shibanova.io/images/coins/0x1337ace33c2b3fc17d85f33dbd0ed73a896148b5.png"
-    }, {
+    }, 
+    {
+      "name": "CoinAlpha",
+      "symbol": "ALP",
+      "address": "0x6775729fad1438116b2e3b4fb2878539795297a7",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://swap.shibanova.io/images/coins/0x6775729fad1438116b2e3b4fb2878539795297a7.jpg"
+    
+    },
+    {
       "name": "Gangster Finance",
       "symbol": "GFI",
       "address": "0xe727A157757f2d8400108063E9BF9e29EF725Ba6",
