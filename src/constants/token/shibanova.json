@@ -43,12 +43,12 @@
       "logoURI": "https://swap.shibanova.io/images/coins/0x57022edd5c7ed7b6bd870488853fe961dfdd3fb6.png"
     },
     {
-      "name": "Gravitoken",
-      "symbol": "GRV",
-      "address": "0x1337ace33c2b3fc17d85f33dbd0ed73a896148b5",
+      "name": "Toon World",
+      "symbol": "TOON",
+      "address": "0xcA695A939203A9445113b90Aa188b81ed1772970",
       "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://swap.shibanova.io/images/coins/0x1337ace33c2b3fc17d85f33dbd0ed73a896148b5.png"
+      "decimals": 18,
+      "logoURI": "https://swap.shibanova.io/images/coins/0xcA695A939203A9445113b90Aa188b81ed1772970.png"
     }, 
     {
       "name": "CoinAlpha",
