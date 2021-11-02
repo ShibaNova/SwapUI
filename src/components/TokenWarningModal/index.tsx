@@ -110,17 +110,17 @@ export default function TokenWarningModal({
           </AutoRow>
           <Text>
             {TranslateString(
-              1130,
-              'Anyone can create a BEP20 token on BSC with any name, including creating fake versions of existing tokens and tokens that claim to represent projects that do not have a token.'
+              999,
+              'Always verify the token address, especially when it is provided by someone else. '
             )}
           </Text>
           <Text>
             {TranslateString(
-              1132,
-              'This interface can load arbitrary tokens by token addresses. Please take extra caution and do your research when interacting with arbitrary BEP20 tokens.'
+              999,
+              'If the selected token does not have a logo on our exchange, there is a possibility it is not a supported token.'
             )}
           </Text>
-          <Text>{TranslateString(1134, 'If you purchase an arbitrary token, you may be unable to sell it back.')}</Text>
+          <Text>{TranslateString(1134, 'Always do your due dilligence, especially when importing tokens or following links, as even trusted sources can be exploited.')}</Text>
           {tokens.map((token) => {
             return <TokenWarningCard key={token.address} token={token} />
           })}
