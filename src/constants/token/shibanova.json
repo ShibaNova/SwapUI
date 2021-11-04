@@ -51,6 +51,14 @@
       "logoURI": "https://swap.shibanova.io/images/coins/0xcA695A939203A9445113b90Aa188b81ed1772970.png"
     }, 
     {
+      "name": "Ryoshi",
+      "symbol": "RYOSHI",
+      "address": "0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://swap.shibanova.io/images/coins/0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9.png"
+    }, 
+    {
       "name": "CoinAlpha",
       "symbol": "ALP",
       "address": "0x6775729fad1438116b2e3b4fb2878539795297a7",
