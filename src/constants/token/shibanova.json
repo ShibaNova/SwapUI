@@ -27,14 +27,6 @@
       "logoURI": "https://swap.shibanova.io/images/coins/0x8db702d9d561921c45be8df38830a653e4bc0299.png"
     }, 
     {
-      "name": "AutoShark Finance",
-      "symbol": "JAWS",
-      "address": "0xdd97ab35e3c0820215bc85a395e13671d84ccba2",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://swap.shibanova.io/images/coins/0xdd97ab35e3c0820215bc85a395e13671d84ccba2.png"
-    },
-    {
       "name": "Octaplex Network",
       "symbol": "PLX",
       "address": "0x57022edd5c7ed7b6bd870488853fe961dfdd3fb6",
