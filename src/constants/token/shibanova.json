@@ -18,14 +18,7 @@
       "decimals": 18,
       "logoURI": "https://swap.shibanova.io/images/coins/0x56E344bE9A7a7A1d27C854628483Efd67c11214F.png"
     },
-    {
-      "name": "CrudeOil Finance",
-      "symbol": "CRUDE",
-      "address": "0x8db702d9d561921c45be8df38830a653e4bc0299",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://swap.shibanova.io/images/coins/0x8db702d9d561921c45be8df38830a653e4bc0299.png"
-    }, 
+  
     {
       "name": "Octaplex Network",
       "symbol": "PLX",
@@ -34,22 +27,7 @@
       "decimals": 18,
       "logoURI": "https://swap.shibanova.io/images/coins/0x57022edd5c7ed7b6bd870488853fe961dfdd3fb6.png"
     },
-    {
-      "name": "Toon World",
-      "symbol": "TOON",
-      "address": "0xcA695A939203A9445113b90Aa188b81ed1772970",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://swap.shibanova.io/images/coins/0xcA695A939203A9445113b90Aa188b81ed1772970.png"
-    }, 
-    {
-      "name": "Ryoshi",
-      "symbol": "RYOSHI",
-      "address": "0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://swap.shibanova.io/images/coins/0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9.png"
-    }, 
+   
     {
       "name": "CoinAlpha",
       "symbol": "ALP",
@@ -116,45 +94,14 @@
       "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
     },
     {
-      "name": "Cardano",
-      "symbol": "ADA",
-      "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+      "name": "Eternal ",
+      "symbol": "ETERNAL",
+      "address": "0xd44fd09d74cd13838f137b590497595d6b3feea4",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x3ee2200efb3400fabb9aacf31297cbdd1d435d47.png"
+      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0xd44fd09d74cd13838f137b590497595d6b3feea4.png"
     },
-    {
-      "name": "DAI",
-      "symbol": "DAI",
-      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
-    },
-    {
-      "name": "PolkaDot",
-      "symbol": "DOT",
-      "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x7083609fce4d1d8dc0c979aab8c869ea2c873402.png"
-    },
-    {
-      "name": "ChainLink",
-      "symbol": "LINK",
-      "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
-    },
-    {
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
-    },
+
     {
       "name": "PancakeSwap Token",
       "symbol": "CAKE",
