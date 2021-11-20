@@ -1340,9 +1340,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@becoswap-libs/uikit@ShibaNova/shibanova-uikit#8a3a5dba618619f5fb8eee1b25b6e9d55961e36d":
+"@becoswap-libs/uikit@ShibaNova/shibanova-uikit#75d8ad84c795afe94ae34d52d96bfe23f90d05b8":
   version "0.10.2"
-  resolved "https://codeload.github.com/ShibaNova/shibanova-uikit/tar.gz/8a3a5dba618619f5fb8eee1b25b6e9d55961e36d"
+  resolved "https://codeload.github.com/ShibaNova/shibanova-uikit/tar.gz/75d8ad84c795afe94ae34d52d96bfe23f90d05b8"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

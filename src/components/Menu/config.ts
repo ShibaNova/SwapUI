@@ -1,7 +1,7 @@
 export default [
   {
     label: 'Home',
-    href: 'https://app.shibanova.io',
+    href: 'https://shibanova.io',
   },
   {
     label: 'NovaDEX',
@@ -10,7 +10,7 @@ export default [
   },
   {
     label: 'NovaPad',
-    href: 'https://app.shibanova.io/novapad',
+    href: 'https://shibanova.io/novapad',
   },
   // {
   //   label: "Audits",
@@ -22,16 +22,8 @@ export default [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Dashboard',
-        href: 'https://app.shibanova.io/dashboard',
-      },
-      {
         label: 'Farms',
-        href: 'https://app.shibanova.io/farms',
-      },
-      {
-        label: 'Pools',
-        href: 'https://app.shibanova.io/pools',
+        href: 'https://shibanova.io/farms',
       },
       {
         label: 'CrudeOil Vault',
