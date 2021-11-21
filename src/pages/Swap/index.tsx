@@ -296,7 +296,7 @@ const Swap = () => {
           />
           <PageHeader
             title={TranslateString(8, 'Exchange')}
-            description={TranslateString(1192, 'Use at least 2% slippage to swap NOVA')}
+            description={TranslateString(999, '75% of swap fees are distributed to sNOVA holders. ')}
           />
           <CardBody>
             <AutoColumn gap="md">
