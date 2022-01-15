@@ -279,8 +279,12 @@ const Swap = () => {
         onConfirm={handleConfirmTokenWarning}
       />
       <CardNav />
+    
       <AppBody>
+       
+     
         <Wrapper gradientBorder id="swap-page">
+      
           <ConfirmSwapModal
             isOpen={showConfirm}
             trade={trade}
@@ -477,9 +481,12 @@ const Swap = () => {
               {isExpertMode && swapErrorMessage ? <SwapCallbackError error={swapErrorMessage} /> : null}
             </BottomGrouping>
           </CardBody>
+          
         </Wrapper>
       </AppBody>
-      <AdvancedSwapDetailsDropdown trade={trade} />
+      <AdvancedSwapDetailsDropdown trade={trade} />  
+  
+      
     </>
   )
 }

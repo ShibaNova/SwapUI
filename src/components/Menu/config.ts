@@ -9,8 +9,8 @@ export default [
     button: true,
   },
   {
-    label: 'NovaPad',
-    href: 'https://shibanova.io/novapad',
+    label: 'Novaria',
+    href: 'https://shibanova.io/novaria',
   },
   // {
   //   label: "Audits",
@@ -22,18 +22,12 @@ export default [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Farms',
-        href: 'https://shibanova.io/farms',
+        label: 'Trade Routes',
+        href: 'https://shibanova.io/traderoutes',
       },
       {
-        label: 'CrudeOil Vault',
-        href: 'https://app.crudeoil.finance/#/app/vaults',
-        external: true,
-      },
-      {
-        label: 'CandleGenie Games',
-        href: 'https://candlegenie.io/ref/IRCTOB3Q',
-        external: true,
+        label: 'Novaria',
+        href: 'https://shibanova.io/novaria',
       },
     ],
   },

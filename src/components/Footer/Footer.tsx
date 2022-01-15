@@ -7,7 +7,7 @@ const Hero = styled(Flex)`
   position: relative;
   justify-content: center; 
   background-position: bottom center;
-  background-image: url('/images/banner2bg.png');
+  background-image: url('/images/banner2bg.jpg');
   background-color: #00aaff20;
   border-top: solid 1px ${({ theme }) => theme.colors.primary};
   

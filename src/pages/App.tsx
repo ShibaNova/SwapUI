@@ -139,6 +139,7 @@ const CACHE_KEY = 'becoSwapLanguage'
                       <Route exact strict path="/swap" component={Swap} />
                       <Route exact strict path="/find" component={PoolFinder} />
                       <Route exact strict path="/pool" component={Pool} />
+                      {/* <Route exact strict path="/onramp" component={onRamp} /> */}
                       <Route exact path="/add" component={AddLiquidity} />
                       <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
 
@@ -150,9 +151,10 @@ const CACHE_KEY = 'becoSwapLanguage'
                       <Route component={RedirectPathToSwapOnly} />
                     </Switch>
                   </Web3ReactManager>
-                  
+                 
                   <Marginer />
                 </BodyWrapper>
+                
               </Menu>
               
             </TranslationsContext.Provider>
