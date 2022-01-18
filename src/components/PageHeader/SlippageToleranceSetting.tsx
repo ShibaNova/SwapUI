@@ -9,7 +9,7 @@ const RISKY_SLIPPAGE_LOW = 50
 const RISKY_SLIPPAGE_HIGH = 500
 
 const Option = styled.div`
-  padding: 0 4px;
+  padding: 0 2px;
 `
 
 const Options = styled.div`
@@ -74,9 +74,9 @@ const SlippageToleranceSettings = ({ translateString }: SlippageToleranceSetting
   }, [userSlippageTolerance, setError, translateString])
 
   return (
-    <Box mb="16px">
-      <Flex alignItems="center" mb="8px">
-        <Text bold>{translateString(88, 'Slippage tolerance')}</Text>
+    <Box >
+      <Flex alignItems="center" mb="2px">
+        <Text bold fontSize="12px">{translateString(88, 'Slippage tolerance')}</Text>
         <QuestionHelper
           text={translateString(
             186,
@@ -85,7 +85,7 @@ const SlippageToleranceSettings = ({ translateString }: SlippageToleranceSetting
         />
       </Flex>
       <Options>
-        <Flex mb={['8px', '8px', 0]} mr={[0, 0, '8px']}>
+        <Flex alignItems="center">
           {predefinedValues.map(({ label, value: predefinedValue }) => {
             const handleClick = () => setValue(predefinedValue)
 
@@ -97,12 +97,11 @@ const SlippageToleranceSettings = ({ translateString }: SlippageToleranceSetting
               </Option>
             )
           })}
-        </Flex>
-        <Flex alignItems="center">
-          <Option>
+            <Option>
             <Input
+              style={{width: 80}}
               type="number"
-              scale="lg"
+              scale="md"
               step={0.1}
               min={0.1}
               placeholder="5%"
@@ -115,9 +114,27 @@ const SlippageToleranceSettings = ({ translateString }: SlippageToleranceSetting
             <Text fontSize="18px">%</Text>
           </Option>
         </Flex>
+        <Flex alignItems="center">
+          {/* <Option>
+            <Input
+              style={{width: '15%'}}
+              type="number"
+              scale="lg"
+              step={0.1}
+              min={0.1}
+              placeholder="5%"
+              value={value}
+              onChange={handleChange}
+              // isWarning={error !== null}
+            />
+          </Option> */}
+          {/* <Option>
+            <Text fontSize="18px">%</Text>
+          </Option> */}
+        </Flex>
       </Options>
       {error && (
-        <Text mt="8px" color="failure">
+        <Text mt="1px" color="failure">
           {error}
         </Text>
       )}

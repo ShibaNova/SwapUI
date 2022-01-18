@@ -3,6 +3,7 @@ import { Currency, CurrencyAmount, ETHER, JSBI, Token, TokenAmount, Trade } from
 import { ParsedQs } from 'qs'
 import { useCallback, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+// import { BNB } from 'constants/index'
 import useENS from '../../hooks/useENS'
 import { useActiveWeb3React } from '../../hooks'
 import { useCurrency } from '../../hooks/Tokens'
@@ -20,6 +21,7 @@ import { computeSlippageAdjustedAmounts } from '../../utils/prices'
 export function useSwapState(): AppState['swap'] {
   return useSelector<AppState, AppState['swap']>((state) => state.swap)
 }
+
 
 export function useSwapActionHandlers(): {
   onCurrencySelection: (field: Field, currency: Currency) => void
@@ -87,9 +89,8 @@ export function tryParseAmount(value?: string, currency?: Currency): CurrencyAmo
 }
 
 const BAD_RECIPIENT_ADDRESSES: string[] = [
-  '0xBCfCcbde45cE874adCB698cC183deBcF17952812', // v2 factory
-  '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
-  '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F', // v2 router 02
+  '0x251912dE998ec91DFDf67EfBe032d6f4aB5EC485', // v2 factory
+  '0xeb17Dd35e47B1a41ba4D86B3506ec1f9b680b56a', // v2 router 
 ]
 
 /**

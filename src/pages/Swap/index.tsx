@@ -33,6 +33,8 @@ import Loader from 'components/Loader'
 import useI18n from 'hooks/useI18n'
 import PageHeader from 'components/PageHeader'
 import ConnectWalletButton from 'components/ConnectWalletButton'
+import SlippageToleranceSetting from 'components/PageHeader/SlippageToleranceSetting'
+import TransactionDeadlineSetting from 'components/PageHeader/TransactionDeadlineSetting'
 import AppBody from '../AppBody'
 
 const Swap = () => {
@@ -56,6 +58,7 @@ const Swap = () => {
     () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
     [loadedInputCurrency, loadedOutputCurrency]
   )
+  const NOVA = useCurrency('0x56E344bE9A7a7A1d27C854628483Efd67c11214F')
   const handleConfirmTokenWarning = useCallback(() => {
     setDismissTokenWarning(true)
   }, [])
@@ -274,7 +277,10 @@ const Swap = () => {
     // ts-ignore
     <>
       <TokenWarningModal
-        isOpen={urlLoadedTokens.length > 0 && !dismissTokenWarning}
+        isOpen={ 
+        loadedInputCurrency !== NOVA && 
+        loadedOutputCurrency !== NOVA && 
+        urlLoadedTokens.length > 0 && !dismissTokenWarning} 
         tokens={urlLoadedTokens}
         onConfirm={handleConfirmTokenWarning}
       />
@@ -383,15 +389,19 @@ const Swap = () => {
                         />
                       </RowBetween>
                     )}
-                    {allowedSlippage !== INITIAL_ALLOWED_SLIPPAGE && (
+                    {/* {allowedSlippage !== INITIAL_ALLOWED_SLIPPAGE && (
                       <RowBetween align="center">
                         <Text fontSize="14px">{TranslateString(88, 'Slippage Tolerance')}</Text>
                         <Text fontSize="14px">{allowedSlippage / 100}%</Text>
                       </RowBetween>
-                    )}
+                    )} */}
                   </AutoColumn>
                 </Card>
               )}
+              
+            <SlippageToleranceSetting  translateString={TranslateString} />
+            <TransactionDeadlineSetting  translateString={TranslateString} />
+
             </AutoColumn>
             <BottomGrouping>
               {!account ? (

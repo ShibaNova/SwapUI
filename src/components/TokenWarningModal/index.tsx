@@ -106,7 +106,7 @@ export default function TokenWarningModal({
         <AutoColumn gap="lg">
           <AutoRow gap="6px">
             <StyledWarningIcon />
-            <Text color="failure">{TranslateString(1128, 'Token imported')}</Text>
+            <Text color="failure">{TranslateString(1128, 'Token imported')}</Text> 
           </AutoRow>
           <Text>
             {TranslateString(

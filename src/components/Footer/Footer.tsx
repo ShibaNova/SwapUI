@@ -5,6 +5,9 @@ import { Heading, Text, Flex } from '@becoswap-libs/uikit'
 const Hero = styled(Flex)`
   flex-direction: column;
   position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
   justify-content: center; 
   background-position: bottom center;
   background-image: url('/images/banner2bg.jpg');

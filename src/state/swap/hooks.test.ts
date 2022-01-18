@@ -4,16 +4,16 @@ import { queryParametersToSwapState } from './hooks'
 
 describe('hooks', () => {
   describe('#queryParametersToSwapState', () => {
-    test('BNB to DAI', () => {
+    test('BNB to NOVA', () => {
       expect(
         queryParametersToSwapState(
           parse(
-            '?inputCurrency=BNB&outputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&exactAmount=20.5&exactField=outPUT',
+            '?inputCurrency=BNB&outputCurrency=0x56E344bE9A7a7A1d27C854628483Efd67c11214F&exactAmount=20.5&exactField=outPUT',
             { parseArrays: false, ignoreQueryPrefix: true }
           )
         )
       ).toEqual({
-        [Field.OUTPUT]: { currencyId: '0x6B175474E89094C44Da98b954EedeAC495271d0F' },
+        [Field.OUTPUT]: { currencyId: '0x56E344bE9A7a7A1d27C854628483Efd67c11214F' },
         [Field.INPUT]: { currencyId: 'BNB' },
         typedValue: '20.5',
         independentField: Field.OUTPUT,

@@ -94,14 +94,6 @@
       "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
     },
     {
-      "name": "Eternal ",
-      "symbol": "ETERNAL",
-      "address": "0xd44fd09d74cd13838f137b590497595d6b3feea4",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0xd44fd09d74cd13838f137b590497595d6b3feea4.png"
-    },
-    {
       "name": "Donate Finance ",
       "symbol": "DONATE",
       "address": "0xA9c233e8757B6901dE16793aA4Fd8DB2d49055E2",

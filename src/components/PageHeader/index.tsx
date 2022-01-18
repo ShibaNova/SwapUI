@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import { Heading, IconButton, Text, Flex, useModal, CogIcon } from '@becoswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import SettingsModal from './SettingsModal'
+import SlippageToleranceSetting from './SlippageToleranceSetting'
+import TransactionDeadlineSetting from './TransactionDeadlineSetting'
 import RecentTransactionsModal from './RecentTransactionsModal'
 
 interface PageHeaderProps {
@@ -11,6 +13,7 @@ interface PageHeaderProps {
   description?: ReactNode
   children?: ReactNode
 }
+
 
 const StyledPageHeader = styled.div`
   border-bottom: 1px solid ${({ theme }) => theme.colors.borderColor};
@@ -36,15 +39,17 @@ const PageHeader = ({ title, description, children }: PageHeaderProps) => {
               {description}
             </Text>
           )}
+            {/* <SlippageToleranceSetting  translateString={TranslateString} />
+            <TransactionDeadlineSetting  translateString={TranslateString} /> */}
         </Details>
-        <IconButton
+        {/* <IconButton
           style={{ flexShrink: 0, boxShadow: 'none !important' }}
           variant="text"
           onClick={onPresentSettings}
           title={TranslateString(1200, 'Settings')}
         >
           <CogIcon width="24px" color="currentColor" />
-        </IconButton>
+        </IconButton> */}
         {/* <IconButton
           variant="text"
           onClick={onPresentRecentTransactions}

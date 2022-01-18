@@ -39,26 +39,26 @@ const BodyWrapper = styled.div`
   overflow-x: hidden;
   z-index: 1;
   justify-content: center;
-  background-repeat: no-repeat;
-  background-position: bottom 24px center;
-  background-size: 90%;
-  
+  // background-repeat: no-repeat;
+  // background-position: bottom 24px center;
+  // background-size: 90%;
 
-  ${({ theme }) => theme.mediaQueries.xs} {
-    background-size: auto;
-  }
 
-  ${({ theme }) => theme.mediaQueries.lg} {
-    
-  }
+  // ${({ theme }) => theme.mediaQueries.xs} {
+  //   background-size: auto;
+  // }
+
+  // ${({ theme }) => theme.mediaQueries.lg} {
+
+  // }
 `
 
 const Marginer = styled.div`
   margin-top: 5rem;
-  
+
 `
 
-const CACHE_KEY = 'becoSwapLanguage'
+
 
  export default function App() {
    const [selectedLanguage, setSelectedLanguage] = useState<any>(undefined)
@@ -125,13 +125,13 @@ const CACHE_KEY = 'becoSwapLanguage'
     <Suspense fallback={null}>
       <HashRouter>
         <AppWrapper>
-        
+
           <LanguageContext.Provider
             value={{ selectedLanguage, setSelectedLanguage, translatedLanguage, setTranslatedLanguage }}
           >
             <TranslationsContext.Provider value={{ translations, setTranslations }}>
               <Menu>
-              
+
                 <BodyWrapper>
                   <Popups />
                   <Web3ReactManager>
@@ -151,17 +151,17 @@ const CACHE_KEY = 'becoSwapLanguage'
                       <Route component={RedirectPathToSwapOnly} />
                     </Switch>
                   </Web3ReactManager>
-                 
-                  <Marginer />
+
+                  {/* <Marginer /> */}
                 </BodyWrapper>
-                
+               
               </Menu>
-              
+
             </TranslationsContext.Provider>
           </LanguageContext.Provider>
-          
+
         </AppWrapper>
-       
+        <Footer />
 
       </HashRouter>
       {/* <Bubbles numberOfBubbles={55} /> */}

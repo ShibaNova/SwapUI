@@ -34,7 +34,7 @@ ReactDOM.render(
       <ResetCSS />
       <GlobalStyle />
       <App />
-      <Footer />
+      {/* <Footer /> */}
     </Providers>
     
   </StrictMode>,

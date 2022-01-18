@@ -18,18 +18,8 @@ export default [
   //   href: "https://docs.shibanova.io/shibanova-documentation/security/audits",
   // },
   {
-    label: 'Earn',
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: 'Trade Routes',
-        href: 'https://shibanova.io/traderoutes',
-      },
-      {
-        label: 'Novaria',
-        href: 'https://shibanova.io/novaria',
-      },
-    ],
+    label: 'Trade Routes',
+    href: 'https://shibanova.io/traderoutes',
   },
   {
     label: 'Socials',

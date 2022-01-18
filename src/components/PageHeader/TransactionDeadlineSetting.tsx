@@ -43,16 +43,16 @@ const TransactionDeadlineSetting = ({ translateString }: TransactionDeadlineSett
   }, [value, setError, setDeadline, translateString])
 
   return (
-    <Box mb="16px">
-      <Flex alignItems="center" mb="8px">
-        <Text bold>{translateString(90, 'Transaction deadline')}</Text>
+    <Box style={{fontSize:8}}>
+      <Flex alignItems="center" >
+        <Text bold style={{fontSize:12}} >{translateString(90, 'Transaction deadline')}</Text>
         <QuestionHelper
           text={translateString(188, 'Your transaction will revert if it is pending for more than this long.')}
         />
       </Flex>
       <Field>
         <Input type="number" step="1" min="1" value={value} onChange={handleChange} />
-        <Text fontSize="14px" ml="8px">
+        <Text fontSize="12px" ml="8px">
           Minutes
         </Text>
       </Field>
