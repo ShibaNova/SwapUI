@@ -52,7 +52,7 @@ const Footer = () => (
   <Hero>
    
     
-    <Row><Col style={{textAlign:"center"}}><Text style={{fontSize:"12px", paddingBottom:"0px"}} >NOVA Contract:</Text>
+    <Row><Col style={{textAlign:"center"}}><Text style={{fontSize:"12px", paddingBottom:"0px"}} >NOVA Contract: (ONLY ON NOVADEX)</Text>
     <Text style={{fontSize:"12px"}}> <a 
         target="_blank"
         rel="noreferrer"

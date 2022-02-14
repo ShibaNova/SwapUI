@@ -94,14 +94,6 @@
       "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
     },
     {
-      "name": "Donate Finance ",
-      "symbol": "DONATE",
-      "address": "0xA9c233e8757B6901dE16793aA4Fd8DB2d49055E2",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://SWAP.SHIBANOVA.IO/images/coins/0xA9c233e8757B6901dE16793aA4Fd8DB2d49055E2.png"
-    },
-    {
       "name": "PancakeSwap Token",
       "symbol": "CAKE",
       "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",

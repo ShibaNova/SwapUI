@@ -10,7 +10,7 @@ export default [
   },
   {
     label: 'Novaria',
-    href: 'https://shibanova.io/novaria',
+    href: 'https://shibanova.io/legend-of-novaria',
   },
   // {
   //   label: "Audits",
@@ -53,6 +53,12 @@ export default [
         label: 'Docs',
         icon: 'BookIcon',
         href: 'https://docs.shibanova.io',
+        external: true,
+      },
+      {
+        label: "Discord",
+        icon: "DiscordIcon",
+        href: "https://discord.gg/vQdxbGx9pV",
         external: true,
       },
     ],
