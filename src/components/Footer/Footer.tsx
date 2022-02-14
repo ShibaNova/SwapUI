@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, Flex } from '@becoswap-libs/uikit'
+import { Text, Flex } from '@becoswap-libs/uikit'
+import discordIcon from './Discord.svg'
 
 const Hero = styled(Flex)`
   flex-direction: column;
@@ -63,27 +64,17 @@ const Footer = () => (
         <Col>
       <Text>Get in Touch</Text>
         <Row >
-                <a
+                <a                  
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.facebook.com/ShibaNovaDEFI"
+                  href="https://discord.gg/vQdxbGx9pV"
                 >
                   <Img
-                    src="https://shibanova.io/assets/images/facebook-icon.svg"
-                    alt="facebook"
-                    style={{paddingLeft:"0"}}
+                    src={discordIcon}
+                    alt="discord"
+                    style={{backgroundColor:'transparent'}}
                   />
                 </a> 
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.instagram.com/ShibaNovaDEFI"
-                >
-                  <Img
-                    src="https://shibanova.io/assets/images/instagram-icon.svg"
-                    alt="instagram"
-                  />
-                </a>
                 <a target="_blank" rel="noreferrer" href="https://t.me/ShibaNovaDEX">
                   <Img
                     src="https://shibanova.io/assets/images/telegram-icon.svg"
@@ -96,6 +87,36 @@ const Footer = () => (
                     alt="twitter"                    
                   />
                 </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/ShibaNovaDEFI"
+                >
+                  <Img
+                    src="https://shibanova.io/assets/images/instagram-icon.svg"
+                    alt="instagram"
+                  />
+                </a>
+                {/* <a                  
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://coinmarketcap.com/currencies/shibanova/"
+                >
+                  <Img
+                    src="https://shibanova.io/images/home/cmclogo.png"
+                    alt="coin marketcap"
+                  />
+                </a> 
+                <a                  
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.coingecko.com/en/coins/shiba-nova"
+                >
+                  <Img
+                    src="https://shibanova.io/images/home/coingecko.png"
+                    alt="coin gecko"
+                  />
+                </a>  */}
 
         </Row>
       </Col>
