@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import { RowFixed } from '../Row'
 
 export const FilterWrapper = styled(RowFixed)`
-  padding: 8px;
-  background-color: ${({ theme }) => theme.colors.invertedContrast};
+  padding: 2px 8px;
+  background-color: ${({ theme }) => theme.colors.backgroundDisabled};
   color: ${({ theme }) => theme.colors.text};
   border-radius: 8px;
   user-select: none;

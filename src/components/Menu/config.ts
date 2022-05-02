@@ -1,25 +1,24 @@
 export default [
   {
     label: 'Home',
-    href: 'https://shibanova.io',
+    href: 'https://novadex.finance',
   },
   {
     label: 'NovaDEX',
-    href: 'https://swap.shibanova.io',
-    button: true,
+    href: 'https://swap.novadex.finance',
   },
   {
     label: 'Novaria',
-    href: 'https://shibanova.io/legend-of-novaria',
+    href: 'https://novadex.finance/legend-of-novaria',
   },
   // {
   //   label: "Audits",
   //   icon: "ShibaNovaAuditIcon",
-  //   href: "https://docs.shibanova.io/shibanova-documentation/security/audits",
+  //   href: "https://docs.novadex.finance/shibanova-documentation/security/audits",
   // },
   {
     label: 'Trade Routes',
-    href: 'https://shibanova.io/traderoutes',
+    href: 'https://novadex.finance/traderoutes',
   },
   {
     label: 'Socials',
@@ -28,19 +27,19 @@ export default [
       {
         label: 'Telegram',
         icon: 'TelegramIcon',
-        href: 'https://t.me/ShibaNovaDEX',
+        href: 'https://t.me/NovaDexAnn',
         external: true,
       },
       {
         label: 'Twitter',
         icon: 'TwitterIcon',
-        href: 'https://twitter.com/ShibaNovaDefi',
+        href: 'https://twitter.com/earnwithNovaDEX',
         external: true,
       },
       {
         label: 'Medium',
         icon: 'MediumIcon',
-        href: 'https://shibanova.medium.com/',
+        href: 'https://novadex.medium.com/',
         external: true,
       },
       {
@@ -52,13 +51,13 @@ export default [
       {
         label: 'Docs',
         icon: 'BookIcon',
-        href: 'https://docs.shibanova.io',
+        href: 'https://docs.novadex.finance',
         external: true,
       },
       {
         label: "Discord",
         icon: "DiscordIcon",
-        href: "https://discord.gg/vQdxbGx9pV",
+        href: "https://discord.gg/nsxxXNjkqU",
         external: true,
       },
     ],

@@ -10,18 +10,22 @@ export const FadedSpan = styled(RowFixed)`
 export const PaddedColumn = styled(AutoColumn)`
   padding: 20px;
   padding-bottom: 12px;
+  background: ${({ theme }) => theme.colors.background};
 `
 
 export const MenuItem = styled(RowBetween)`
   padding: 4px 20px;
   height: 56px;
+  color: ${({ theme}) => theme.colors.primary};
+  background: ${({ theme }) => theme.colors.background};
+  
   display: grid;
   grid-template-columns: auto minmax(auto, 1fr) auto minmax(0, 72px);
   grid-gap: 16px;
   cursor: ${({ disabled }) => !disabled && 'pointer'};
   pointer-events: ${({ disabled }) => disabled && 'none'};
   :hover {
-    background-color: ${({ theme, disabled }) => !disabled && theme.colors.invertedContrast};
+    background-color: ${({ theme, disabled }) => !disabled && theme.colors.primaryBright};
   }
   opacity: ${({ disabled, selected }) => (disabled || selected ? 0.5 : 1)};
 `
@@ -36,7 +40,7 @@ export const SearchInput = styled.input`
   background: none;
   border: none;
   outline: none;
-  border-radius: 20px;
+  border-radius: 10px;
   color: ${({ theme }) => theme.colors.text};
   border-style: solid;
   border: 1px solid ${({ theme }) => theme.colors.tertiary};
@@ -56,7 +60,7 @@ export const SearchInput = styled.input`
 export const Separator = styled.div`
   width: 100%;
   height: 1px;
-  background-color: ${({ theme }) => theme.colors.invertedContrast};
+  background-color: ${({ theme }) => theme.colors.priamry};
 `
 
 export const SeparatorDark = styled.div`

@@ -15,7 +15,7 @@ const useGetDocumentTitlePrice = () => {
         })}`
 
   useEffect(() => {
-    document.title = `ShibaNova${novaPriceUsdString}`
+    document.title = `NovaDEX ${novaPriceUsdString}`
   }, [novaPriceUsdString])
 }
 export default useGetDocumentTitlePrice

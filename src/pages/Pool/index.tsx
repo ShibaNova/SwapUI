@@ -57,7 +57,7 @@ export default function Pool() {
   return (
     <>
       <CardNav activeIndex={1} />
-      <AppBody>
+      <AppBody >
         <PageHeader
           title={TranslateString(262, 'Liquidity')}
           description={TranslateString(1168, 'Add liquidity to receive LP tokens')}

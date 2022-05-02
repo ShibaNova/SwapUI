@@ -329,7 +329,7 @@ const Swap = () => {
                 <AutoRow justify={isExpertMode ? 'space-between' : 'center'} style={{ padding: '0 1rem' }}>
                   <ArrowWrapper clickable>
                     <IconButton
-                      variant="tertiary"
+                      variant="primary"
                       onClick={() => {
                         setApprovalSubmitted(false) // reset 2 step UI for approvals
                         onSwitchTokens()
@@ -337,7 +337,7 @@ const Swap = () => {
                       style={{ borderRadius: '50%' }}
                       size="sm"
                     >
-                      <ArrowDownIcon color="primary" width="24px" />
+                      <ArrowDownIcon color="background" width="24px" />
                     </IconButton>
                   </ArrowWrapper>
                   {recipient === null && !showWrap && isExpertMode ? (
@@ -421,7 +421,7 @@ const Swap = () => {
                 <RowBetween>
                   <Button
                     onClick={approveCallback}
-                    disabled={approval !== ApprovalState.NOT_APPROVED || approvalSubmitted}
+                    disabled={approval !== ApprovalState.NOT_APPROVED || approvalSubmitted} 
                     style={{ width: '48%' }}
                     variant={approval === ApprovalState.APPROVED ? 'success' : 'primary'}
                   >

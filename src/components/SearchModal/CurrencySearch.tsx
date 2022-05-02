@@ -138,7 +138,7 @@ export function CurrencySearch({
   const selectedListInfo = useSelectedListInfo()
   const TranslateString = useI18n()
   return (
-    <Column style={{ width: '100%', flex: '1 1' }}>
+    <Column style={{ width: '100%', flex: '1 1', borderRadius:10 }}>
       <PaddedColumn gap="14px">
         <RowBetween>
           <Text>
@@ -170,7 +170,7 @@ export function CurrencySearch({
         </RowBetween>
       </PaddedColumn>
 
-      <Separator />
+      
 
       <div style={{ flex: '1' }}>
         <AutoSizer disableWidth>

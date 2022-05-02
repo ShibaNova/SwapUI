@@ -26,11 +26,12 @@ const StyledBalanceText = styled(Text)`
   overflow: hidden;
   max-width: 5rem;
   text-overflow: ellipsis;
+  
 `
 
 const Tag = styled.div`
   background-color: ${({ theme }) => theme.colors.tertiary};
-  color: ${({ theme }) => theme.colors.textSubtle};
+  color: ${({ theme }) => theme.colors.background};
   font-size: 14px;
   border-radius: 4px;
   padding: 0.25rem 0.3rem 0.25rem 0.3rem;
