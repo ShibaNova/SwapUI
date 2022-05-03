@@ -4,7 +4,7 @@ export default [
     href: 'https://novadex.finance',
   },
   {
-    label: 'NovaDEX',
+    label: 'Exchange',
     href: 'https://swap.novadex.finance',
   },
   {
