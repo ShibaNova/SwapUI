@@ -18,6 +18,38 @@
       "decimals": 18,
       "logoURI": "https://swap.novadex.finance/images/coins/0x56E344bE9A7a7A1d27C854628483Efd67c11214F.png"
     },
+    {
+      "name": "Tether",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059ff775485246999027b3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://swap.novadex.finance/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    {
+      "name": "Cake",
+      "symbol": "CAKE",
+      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://swap.novadex.finance/images/coins/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://swap.novadex.finance/images/coins/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "DAI",
+      "symbol": "DAI",
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://swap.novadex.finance/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
+    },
   
     {
       "name": "Octaplex Network",
@@ -26,16 +58,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://swap.novadex.finance/images/coins/0x57022edd5c7ed7b6bd870488853fe961dfdd3fb6.png"
-    },
-   
-    {
-      "name": "CoinAlpha",
-      "symbol": "ALP",
-      "address": "0x6775729fad1438116b2e3b4fb2878539795297a7",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://swap.novadex.finance/images/coins/0x6775729fad1438116b2e3b4fb2878539795297a7.jpg"
-    
     },
     {
       "name": "Gangster Finance",
