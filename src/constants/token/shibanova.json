@@ -50,7 +50,6 @@
       "decimals": 18,
       "logoURI": "https://swap.novadex.finance/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
     },
-  
     {
       "name": "Octaplex Network",
       "symbol": "PLX",
@@ -58,14 +57,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://swap.novadex.finance/images/coins/0x57022edd5c7ed7b6bd870488853fe961dfdd3fb6.png"
-    },
-    {
-      "name": "Gangster Finance",
-      "symbol": "GFI",
-      "address": "0xe727A157757f2d8400108063E9BF9e29EF725Ba6",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://swap.novadex.finance/images/coins/0xe727A157757f2d8400108063E9BF9e29EF725Ba6.png"
     },
     {
       "name": "Wrapped BNB",
