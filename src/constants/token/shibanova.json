@@ -51,14 +51,6 @@
       "logoURI": "https://swap.novadex.finance/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
     },
     {
-      "name": "Octaplex Network",
-      "symbol": "PLX",
-      "address": "0x57022edd5c7ed7b6bd870488853fe961dfdd3fb6",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://swap.novadex.finance/images/coins/0x57022edd5c7ed7b6bd870488853fe961dfdd3fb6.png"
-    },
-    {
       "name": "Wrapped BNB",
       "symbol": "WBNB",
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
@@ -97,6 +89,30 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://SWAP.novadex.finance/images/coins/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+    },
+    {
+      "name": "ChainLink",
+      "symbol": "LINK",
+      "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.novadex.finance/images/coins/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.novadex.finance/images/coins/0x3ee2200efb3400fabb9aacf31297cbdd1d435d47.png"
+    },
+    {
+      "name": "PolkaDot",
+      "symbol": "DOT",
+      "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://SWAP.novadex.finance/images/coins/0x7083609fce4d1d8dc0c979aab8c869ea2c873402.png"
     }
   ]
 }
