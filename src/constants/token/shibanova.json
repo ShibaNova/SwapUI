@@ -19,6 +19,14 @@
       "logoURI": "https://swap.novadex.finance/images/coins/0x56E344bE9A7a7A1d27C854628483Efd67c11214F.png"
     },
     {
+      "name": "Phoenix",
+      "symbol": "PHX",
+      "address": "0x0F925153230C836761F294eA0d81Cef58E271Fb7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://swap.novadex.finance/images/coins/0x0F925153230C836761F294eA0d81Cef58E271Fb7.png"
+    },
+    {
       "name": "Tether",
       "symbol": "USDT",
       "address": "0x55d398326f99059ff775485246999027b3197955",
