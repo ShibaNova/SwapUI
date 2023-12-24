@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@becoswap-libs/sdk": "shibanova/shibanova-swap-sdk-mainnet",
-    "@becoswap-libs/uikit": "ShibaNova/shibanova-uikit#066fb458c8de867c8f6bc1ccddd2407ad3f25975",
+    "@becoswap-libs/uikit": "ShibaNova/shibanova-uikit#b454735198ce08a570121079f574c9d4f41fcf46",
     "@binance-chain/bsc-connector": "^1.0.0",
     "@ethersproject/experimental": "^5.0.1",
     "@popperjs/core": "^2.4.4",
