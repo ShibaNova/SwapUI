@@ -8,6 +8,7 @@ import useTheme from 'hooks/useTheme'
 import useGetLocalProfile from 'hooks/useGetLocalProfile'
 import useAuth from 'hooks/useAuth'
 import { languageList } from 'constants/localisation/languageCodes'
+import useGetPhxPriceData from 'hooks/useGetPhxPriceData'
 import links from './config'
 import { NOVA } from '../../constants'
 
@@ -34,7 +35,9 @@ const Menu: React.FC = (props) => {
       langs={languageList}
       setLang={setSelectedLanguage}
       novaPriceUsd={novaPriceUsd}
+      phxPriceUsd={(useGetPhxPriceData() * novaPriceUsd)}
       priceLink="https://coinbrain.com/coins/0x56e344be9a7a7a1d27c854628483efd67c11214f"
+      phxPriceLink="https://coinbrain.com/coins/bnb-0x0f925153230c836761f294ea0d81cef58e271fb7"
       // profile={profile}
       {...props}
     />
